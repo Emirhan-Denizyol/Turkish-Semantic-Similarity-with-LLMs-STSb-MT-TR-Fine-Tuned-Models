@@ -60,6 +60,8 @@ Epoch 6  | Train Loss: 0.2790 | Val MAE: 0.4380
 Epoch 7  | Train Loss: 0.2321 | Val MAE: 0.4291
 Epoch 8  | Train Loss: 0.2104 | Val MAE: 0.3891
 Epoch 9  | Train Loss: 0.1952 | Val MAE: 0.3604
-Epoch 10 | Train Loss: 0.1735 | Val MAE: 0.3667
-Epoch 11 | Train Loss: 0.1698 | Val MAE: 0.3987
+Epoch 10 | Train Loss: 0.1735 | Val MAE: 0.3567
+Epoch 11 | Train Loss: 0.1698 | Val MAE: 0.3410
+Epoch 12 | Train Loss: 0.1698 | Val MAE: 0.3687
+Epoch 13 | Train Loss: 0.1698 | Val MAE: 0.3978
 → Early stopping triggered
