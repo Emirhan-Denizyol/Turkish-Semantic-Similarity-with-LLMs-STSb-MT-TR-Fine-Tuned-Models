@@ -404,5 +404,3 @@ df_result = pd.DataFrame({
 # En yüksek hatalı 10 örnek
 df_worst = df_result.sort_values("abs_error", ascending=False).head(10)
 df_worst
-
-"""deneme"""
