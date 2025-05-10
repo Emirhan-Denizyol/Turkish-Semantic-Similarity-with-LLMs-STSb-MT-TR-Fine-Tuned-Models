@@ -20,6 +20,23 @@ Semantic Textual Similarity (STS) models are designed to score the degree of sem
 
 ---
 
+## 🧹 Data Preprocessing
+Before training, the STSb-MT-Turkish dataset underwent a comprehensive preprocessing pipeline to ensure data quality and model compatibility. The preprocessing steps included:
+
+Removal of incomplete or corrupted samples.
+
+Lowercasing of all text to reduce variability.
+
+Elimination of unnecessary punctuation and special characters.
+
+Whitespace normalization between sentence pairs.
+
+Tokenization based on the input format expected by the base model.
+
+These steps were essential to enhance model stability and improve overall semantic similarity prediction accuracy.
+
+---
+
 ## 🧠 Model Details
 
 | Feature               | Description                                        |
