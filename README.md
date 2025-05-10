@@ -33,3 +33,33 @@ Semantic Textual Similarity (STS) models are designed to score the degree of sem
 ---
 
 
+## 📊 Model Training & Evaluation
+
+The model was trained on the `STSb-MT-Turkish` dataset using a hybrid regression architecture that combines:
+
+- **Bi-directional Cross-Attention**
+- **Multi-Head Self-Attention**
+- **Sentence-level Mean Pooling**
+- **Attention Pooling with Fusion**
+- Output scaled to the **[0, 5]** range for semantic similarity.
+
+Training was performed using:
+- **Mixed-Precision Training (AMP)**
+- **AdamW Optimizer**
+- **Early Stopping based on Validation MAE**
+
+### 🏋️ Training Progress
+
+```txt
+Epoch 1  | Train Loss: 1.6597 | Val MAE: 1.1838
+Epoch 2  | Train Loss: 0.9385 | Val MAE: 0.6353
+Epoch 3  | Train Loss: 0.5916 | Val MAE: 0.5385
+Epoch 4  | Train Loss: 0.4554 | Val MAE: 0.4846
+Epoch 5  | Train Loss: 0.3340 | Val MAE: 0.4428
+Epoch 6  | Train Loss: 0.2790 | Val MAE: 0.4380
+Epoch 7  | Train Loss: 0.2321 | Val MAE: 0.4291
+Epoch 8  | Train Loss: 0.2104 | Val MAE: 0.3891
+Epoch 9  | Train Loss: 0.1952 | Val MAE: 0.3604
+Epoch 10 | Train Loss: 0.1735 | Val MAE: 0.3667
+Epoch 11 | Train Loss: 0.1698 | Val MAE: 0.3987
+→ Early stopping triggered
